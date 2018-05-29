@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>15</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>405</x>
+      <y>30</y>
+      <w>300</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>AndGate
+--
++ execute() :</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>15</y>
+      <w>300</w>
+      <h>600</h>
+    </coordinates>
+    <panel_attributes>/LogFunc/
+--
+- __Input0 : bool = False
+- __Input1 : bool = False
+- __Output : bool = False
+- __Name : string = ''
+--
+            &lt;&lt;getter/setter&gt;&gt;
+- __get_input0() : bool
+- __get_input1() : bool
+- __get_output() : bool
+- __get_name() : string
+- __set_input0(value : bool) :
+- __set_input1(value : bool) :
+# _set_output(value : bool) :
+- __set_name(value : string) :
+--
+               &lt;&lt;properties&gt;&gt;
++ Input0 : bool
++ Input1 : bool
++ Output : bool {readonly}
++ Name : string
+--
+/+ execute() :/
++ show() :
++ __str__() : string
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>60</y>
+      <w>120</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>405</x>
+      <y>150</y>
+      <w>300</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>OrGate
+--
++ execute() :</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>405</x>
+      <y>285</y>
+      <w>300</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>XOrGate
+--
++ execute() :</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>180</y>
+      <w>120</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>315</y>
+      <w>120</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>405</x>
+      <y>420</y>
+      <w>300</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>NAndGate
+--
++ execute() :</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>450</y>
+      <w>120</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+</diagram>

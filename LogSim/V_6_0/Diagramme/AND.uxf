@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>15</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>285</x>
+      <y>30</y>
+      <w>300</w>
+      <h>600</h>
+    </coordinates>
+    <panel_attributes>AndGate
+--
+- __Input0 : bool = False
+- __Input1 : bool = False
+- __Output : bool = False
+- __Name : string = ''
+--
+            &lt;&lt;getter/setter&gt;&gt;
+- __get_input0() : bool
+- __get_input1() : bool
+- __get_output() : bool
+- __get_name() : string
+- __set_input0(value : bool) :
+- __set_input1(value : bool) :
+- __set_output(value : bool) :
+- __set_name(value : string) :
+--
+               &lt;&lt;properties&gt;&gt;
++ Input0 : bool
++ Input1 : bool
++ Output : bool {readonly}
++ Name : string
+--
++ show() :
++ execute() :
+- __init__() :
+- __str__() : string
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

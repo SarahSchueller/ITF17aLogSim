@@ -1,2 +1,2 @@
 # ITF17aLogSim
-Simulation of logical functions in Python. Example projekt in order to learn OO.
+Simulation of logical functions in Python. Example project in order to learn OO.

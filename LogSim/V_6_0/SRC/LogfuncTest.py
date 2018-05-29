@@ -4,6 +4,12 @@ from Logfunc import AndGate, OrGate, XOrGate, NAndGate
 
 
 class AndGateTest(unittest.TestCase):
+    def testcase_00(self):
+        a = AndGate()
+        self.assertEqual(False, a.Input0, "Class AndGate Testcase 0 failed.")
+        self.assertEqual(False, a.Input1, "Class AndGate Testcase 0 failed.")
+        self.assertEqual(False, a.Output, "Class AndGate Testcase 0 failed.")
+
     def testcase_01(self):
         a = AndGate()
         a.Input0 = False
@@ -34,6 +40,12 @@ class AndGateTest(unittest.TestCase):
 
 
 class OrGateTest(unittest.TestCase):
+    def testcase_00(self):
+        a = OrGate()
+        self.assertEqual(False, a.Input0, "Class OrGate Testcase 0 failed.")
+        self.assertEqual(False, a.Input1, "Class OrGate Testcase 0 failed.")
+        self.assertEqual(False, a.Output, "Class OrGate Testcase 0 failed.")
+
     def testcase_01(self):
         a = OrGate()
         a.Input0 = False
@@ -64,6 +76,12 @@ class OrGateTest(unittest.TestCase):
 
 
 class XOrGateTest(unittest.TestCase):
+    def testcase_00(self):
+        a = XOrGate()
+        self.assertEqual(False, a.Input0, "Class XOrGate Testcase 0 failed.")
+        self.assertEqual(False, a.Input1, "Class XOrGate Testcase 0 failed.")
+        self.assertEqual(False, a.Output, "Class XOrGate Testcase 0 failed.")
+
     def testcase_01(self):
         a = XOrGate()
         a.Input0 = False
