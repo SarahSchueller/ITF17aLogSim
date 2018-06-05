@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>15</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>525</x>
+      <y>15</y>
+      <w>465</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>AndGate
+--
++ __init__(nof_inputs : int)
++ execute() :</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>0</y>
+      <w>420</w>
+      <h>405</h>
+    </coordinates>
+    <panel_attributes>/LogFunc/
+--
+# _Inputs : bool  [0..*] = False
+# _Outputs : bool [1..*] = False
+- __Name : string = ''
+--
+            &lt;&lt;getter/setter&gt;&gt;
++ get_input(index : int) : bool
++ get_output(index : int) : bool
++ get_name() : string
++ set_input(index : int, value : bool) :
+# _set_output(index int: value : bool) :
++ set_name(value : string) :
+--
++ __init__(nof_inputs : int, nof_outputs : int)
+/+ execute() :/
++ show() :
++ __str__() : string
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>465</x>
+      <y>45</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>525</x>
+      <y>120</y>
+      <w>465</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>OrGate
+--
++ __init__(nof_inputs : int)
++ execute() :</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>525</x>
+      <y>225</y>
+      <w>465</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>XOrGate
+--
++ __init__(nof_inputs : int)
++ execute() :</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>465</x>
+      <y>150</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>465</x>
+      <y>255</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>525</x>
+      <y>330</y>
+      <w>465</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>NAndGate
+--
++ __init__(nof_inputs : int)
++ execute() :</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>465</x>
+      <y>330</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>600</y>
+      <w>555</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>NotGate
+--
++ __init__(nof_inputs : int)
++ execute() :</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>255</x>
+      <y>390</y>
+      <w>45</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>525</x>
+      <y>435</y>
+      <w>465</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>NOrGate
+--
++ __init__(nof_inputs : int)
++ execute() :</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>405</x>
+      <y>390</y>
+      <w>150</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;60.0</additional_attributes>
+  </element>
+</diagram>
