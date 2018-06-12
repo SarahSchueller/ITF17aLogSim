@@ -299,6 +299,5 @@ class FullAdder(LogFunc):
         self.__Carry.set_input(1, self.__Sum[1].get_output(1))
         self.__Carry.execute()
 
-
         self._set_output(0, self.__Sum[1].get_output(0))
         self._set_output(1, self.__Carry.get_output(0))
